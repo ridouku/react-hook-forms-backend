@@ -24,6 +24,7 @@ media
 .idea/**/libraries
 *.iws /out/
 .idea/*
+/my_awesome_django_project/.idea/*
 # Python #
 *.py[cod]
 *$py.class
