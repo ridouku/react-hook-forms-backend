@@ -94,11 +94,23 @@ pip install -r requirements.txt
 ```
 ## Usage
 To start the server, you need locate in the next path:
+
 ```shell
  cd my_awesome_django_project
 ```
 
-and run:
+Before starting the server you need to add a secret key in settings.py, 
+to generate a secret key you can run:
+
+```shell
+ ./manage.py djecrety
+```
+
+This library generates a secret key, you just need to copy the output and
+replace the text `Insert your key here`
+
+Finally, you should run:
+
 ```shell
 python manage.py runserve 
 ```
